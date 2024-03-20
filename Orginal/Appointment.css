@@ -99,3 +99,80 @@ body
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 5px;
 }
+
+.filter
+{
+    width: 95%;
+    min-width: 500px;
+    height: 100px;
+    background-color: #b2ebeb;
+    margin: auto;
+    margin-top: 2em;
+    display: flex;
+    
+}
+.filter_icon_div
+{
+    width: 17%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5em;
+}
+
+.filter_select
+{
+    width: 80%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 700px;
+    height: 80%;
+    vertical-align: middle;
+    margin-left: 5em;
+    margin-top: 5px;
+}
+.filter_select select
+{
+    width: 75px;
+    height: 50px;
+    width: max-content;
+}
+
+.doctors_div
+{
+
+    
+    width: 95%;
+    /* background-color: aqua; */
+    margin:auto;
+}
+
+.doctors_div ol
+{
+    list-style: none;
+    background-color: rgb(192, 192, 240);
+    padding: 1ex;
+
+}
+
+.doctors_div ol li
+{
+    
+    padding: 3em;
+    min-width: 200px;
+}
+.doctors_div ol li:hover
+{
+    background-color: rgb(137, 137, 252);
+    transform: translateY(-5px);
+    transition: ease 0.5s;
+}
+
+.doctors_div ol li table tr td h3:hover
+{
+    color: white;
+}
